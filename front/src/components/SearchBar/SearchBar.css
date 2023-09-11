@@ -1,0 +1,78 @@
+.Search {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.SearchInput {
+    width: 250px;
+    height: 40px;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    font-size: 17px;
+    background: rgb(84, 253, 45);
+    background: radial-gradient(circle, rgba(83, 253, 45, 0.301) 0%, rgba(34, 112, 195, 0.212) 100%);
+    border: 1px solid #a1e04e;
+}
+
+/* .SearchButton {
+    width: 100%;
+    height: 55px; 
+    border-radius: 100%;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #a1e04e;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.SearchButton:hover {
+    background-color: #75e92985;
+    border-color: #c6f716;
+} */
+
+/*** ESTILOS BOTÓN SLIDE BOTTOM ***/
+.SearchButton{
+    width: 100%;
+    height: 60px; 
+    background: #a1e04e; /* color de fondo */
+    color: #fff; /* color de fuente */
+    border-radius: 100%; /* redondear bordes */
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .SearchButton:hover {
+    color: #8fdd2a; /* color de fuente hover */
+  }
+  .SearchButton::after {
+    content: "";
+    background: #8bf5da; /* color de fondo hover */
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid #8fdd2a;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .SearchButton:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }

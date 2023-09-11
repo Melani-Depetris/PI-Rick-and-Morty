@@ -1,0 +1,57 @@
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dosis:wght@300&family=Handjet:wght@500&display=swap');
+
+  .FavsContainer {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.FavsH1 {
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    background-color: rgba(51, 45, 45, 0.541);
+    border-bottom: 0.5px solid #a1e04e49;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.select {
+    margin: 20px;
+    width: 150px;
+    height: 45px;
+margin-left: 50px;
+
+    border-radius: 25px;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #61882f;
+    text-shadow: 2px 2px 1px #233a04;
+}
+
+.buttonAtras {
+    margin-left: 30px;
+    background-color: transparent;
+    color: antiquewhite;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg);
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}

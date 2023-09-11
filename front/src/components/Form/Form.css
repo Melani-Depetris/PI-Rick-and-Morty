@@ -1,0 +1,84 @@
+.DivContenedorForm {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: no-repeat url('../public/img/login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Formulario {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 15px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    padding: 25px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.LabelForm {
+    font-size: 'Handjet', cursive;
+    color: #87c94a;
+    margin: 5px;
+
+}
+
+.InputForm {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background: rgb(84, 253, 45);
+    background: radial-gradient(circle, rgba(83, 253, 45, 0.301) 0%, rgba(34, 112, 195, 0.212) 100%);
+}
+
+.ButtonForm {
+    border-radius: 70px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 'Handjet', cursive;
+
+    /* font-size: 1em; */
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #46d918;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.ButtonForm:hover {
+    background-color: #00000018;
+    border-color: #46d918;
+    /* background: rgb(84,253,45);
+    background: radial-gradient(circle, rgba(84,253,45,1) 0%, rgba(34,113,195,1) 100%); */
+}
+
+.ButtonCreate {
+    border-radius: 70px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 'Handjet', cursive;
+
+    /* font-size: 1em; */
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffffff00;
+    text-decoration: underline;
+}
+
+.ButtonCreate:hover {
+    transform: scale(1.04);
+}

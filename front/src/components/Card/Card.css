@@ -1,0 +1,74 @@
+.DivContainer{
+    height: 340px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    background: rgb(84,253,45);
+    background: radial-gradient(circle, rgba(84,253,45,1) 0%, rgba(34, 112, 195, 0.151) 100%);
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 20px;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    transform: translate(0);
+    transition: transform 0.25s ease-out;
+}
+.DivContainer:hover{
+    transform: scale(1.05);
+  }
+
+.Name{
+color:aquamarine;
+font-size: 14px;
+height: 10px;
+}
+
+.DivInfo{
+    font-size: 5px;    
+    height: auto;
+}
+
+.h2{
+    height: 10px;
+}
+
+.ButtonX{
+position: absolute;
+top: 15px;
+right: 15px;
+padding: 1px;
+border: 1px;
+background: none;
+border-radius: 100%;
+scale: 1.3;
+}
+
+.ButtonX:hover{
+    /* cursor: pointer;
+    border-color: rgb(84,253,45); */
+    /* background-color: rgb(84,253,45); */
+    filter: invert(82%) sepia(38%) saturate(2207%) hue-rotate(53deg) brightness(107%) contrast(98%);
+} 
+
+.Img{
+    border-radius: 100%;
+}
+
+.ButtonFav{
+    width: 30px;
+    height: 40px;
+    background-color:transparent;
+    scale: 1.8;
+}
+.ButtonFav:hover{
+    transform: scale(1.2);
+    /* opacity: .5; */
+    cursor: pointer;
+}
+
+.noFav{
+    width: 18px;
+    height: 18px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(78deg) brightness(98%) contrast(102%)
+}

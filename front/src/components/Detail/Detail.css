@@ -1,0 +1,33 @@
+.ContenedorDetail {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: no-repeat url('../../../public/img/home3.jpg');
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Recuadro {
+    width: 70vw;
+    height: 60vh;
+    margin: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.ImgDetail {
+    border-radius: 100%;
+    margin: 30px;
+    border: 2px solid;
+    border-color: aqua;
+}
+
+.InfoDetail {
+    margin: 80px;
+}
