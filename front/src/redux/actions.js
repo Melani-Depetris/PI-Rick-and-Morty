@@ -8,7 +8,7 @@ export const ORDER = "ORDER";
 export const CREATE_USER = "CREATE_USER";
 
 export const addFav = (character) => {
-    const endpoint = 'http://localhost:3001/rickandmorty/fav';
+    const endpoint = 'https://servidor-randm.onrender.com/rickandmorty/fav';
     return async (dispatch) => {
 
         try {
@@ -45,7 +45,7 @@ export const addFav = (character) => {
 // };
 
 export const removeFav = (id) => {
-    const endpoint = 'http://localhost:3001/rickandmorty/fav/' + id;
+    const endpoint = 'https://servidor-randm.onrender.com/rickandmorty/fav/' + id;
     console.log(endpoint);
     return async (dispatch) => {
         try {
@@ -96,7 +96,7 @@ export const orderCards = (orden) => {
 };
 
 export const createUser = (userData) => {
-    const endpoint = 'http://localhost:3001/rickandmorty/login';
+    const endpoint = 'https://servidor-randm.onrender.com/rickandmorty/login';
     return async (dispatch) => {
         try {
             const { data } = await axios.post(endpoint, userData)

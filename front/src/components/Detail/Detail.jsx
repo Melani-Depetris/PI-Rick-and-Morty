@@ -16,7 +16,7 @@ const Detail = () => {
         const API_KEY = 'key=henrym-melani-depetris';
 
         // axios.get((`${URL_BASE}/${id}?${API_KEY}`))        
-        axios(`http://localhost:3001/rickandmorty/character/${id}`)
+        axios(`https://servidor-randm.onrender.com/rickandmorty/character/${id}`)
             .then(({ data }) => {
                 if (data.name) {
                     setCharacter(data);

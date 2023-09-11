@@ -46,7 +46,7 @@ const App = () => {
 
    const login = async (userData) => {
       const { email, password } = userData;
-      const URL = 'http://localhost:3001/rickandmorty/login/';
+      const URL = 'https://servidor-randm.onrender.com/rickandmorty/login/';
       const { data } = await axios(URL + `?email=${email}&password=${password}`)
       try {
          const { access } = data;
@@ -71,7 +71,7 @@ const App = () => {
          if (found) {
             alert('Este personaje ya fue agregado.')
          } else {
-            const { data } = await axios(`http://localhost:3001/rickandmorty/character/${id}`)
+            const { data } = await axios(`https://servidor-randm.onrender.com/rickandmorty/character/${id}`)
             if (data.name) setCharacters((characters) => [...characters, data]);
          }
 
